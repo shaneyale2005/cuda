@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/miniconda3/envs/cu124/lib/python3.12/site-packages/torch/include",
+                "~/miniconda3/envs/cu124/lib/python3.12/site-packages/torch/include/torch/csrc/api/include",
+                "/usr/local/cuda/include",
+                "~/miniconda3/envs/cu124/include/python3.12"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
